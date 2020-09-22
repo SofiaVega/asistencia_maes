@@ -1,0 +1,59 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Google Meet Controls",
+    "short_name": "Meet Controls",
+    "description": "Control your microphone manners for Meet",
+    "version": "1.0",
+    "author": "Sofi",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://meet.google.com/*"
+            ],
+            "run_at": "document_start",
+            "js": [
+                "js/content.js"
+            ],
+            "all_frames": false
+        }
+    ],
+    "permissions": [
+        "declarativeContent",
+        "tabs",
+        "notifications",
+        "storage"
+    ],
+    "commands": {
+        "toggle": {
+            "description": "Toggle mute",
+            "global": true,
+            "suggested_key": {
+                "default": "Ctrl+Shift+T",
+                "mac": "Command+Shift+Y"
+            }
+        }
+    },
+    "page_action":{
+        "default_icon": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png",
+            "128": "images/get_started128.png"
+        },
+		"default_popup": "html/popup.html",
+		"default_title": "Google Meet Attendance"
+    },
+    "icons": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+}
