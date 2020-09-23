@@ -9,7 +9,6 @@
         //let maxWait=waitfor==1000?10:null
         
         window.setTimeout(function(){
-            //console.log('numChecks: '+numChecks)
             let itExists = document.querySelector(elementPath)
             //if( numChecks < maxWait && (!itExists || itExists.length === 0)) {
             if( !itExists || itExists.length === 0 ) {
@@ -67,7 +66,6 @@
             .split('\n')[0]
     }
     let lista=[];
-    let oldlista=[];
     function checkParticipants(){
         let listaNueva=getListOfParticipants();
         for(let p of listaNueva){
@@ -76,15 +74,6 @@
                 console.log(p);
             }
         }
-        /*if(lista===oldlista){
-            //do nothing
-        }else{
-            for(let persona of lista){
-                console.log(persona);
-                //alert(persona+' has joined the game!');
-            }
-            oldlista=lista;
-        }*/
 
     }
     function getListOfParticipants(){
@@ -102,16 +91,9 @@
                 continue
             }
             let trimmed=participant.outerHTML.replace(/(class|style|jsaction|jsname|jscontroller|jsshadow|jsmodel)="[^"]*"/gm,'').replace(/<path.*?<\/path>/g,'_path_').replace(/<span.*?<svg.*?<\/svg><\/span>/g,'_svg_').replace(/<img[^>]*?>/g,'_img_').replace(/\s{2,}/g,' ').replace(/\s*>/g,'>')
-             
-            // if there's no matching entry, add it with arrival time
-            /*if(listaLocal.length===0 || listaLocal.find(pName)==undefined){
-                console.log('Añadiendo ' + pName + ' a lista');
-                listaLocal.push(pName);
-            }*/
+            
             listaLocal.push(pName);
             return listaLocal;
-            //console.log(pName);
-            //alert(pName+' has joined the game!');
         }
     }
     waitForElement("[data-allocation-index]",function(){
@@ -126,7 +108,6 @@
         waitForElement('[data-participant-id]',function(){
             alert("NuevoParticipante");
             console.log('Nuevo participante');
-            //checkParticipants();
         })
     })
     
