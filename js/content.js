@@ -1,4 +1,7 @@
 ;(function() {	
+    let horaInicio=0;
+    let horaFinal=0;
+    let totalTime=0;
     function waitForElement(elementPath, callBack){
         //console.log("Waiting for: " + elementPath)
         
@@ -6,7 +9,6 @@
         //let maxWait=waitfor==1000?10:null
         
         window.setTimeout(function(){
-            //console.log('numChecks: '+numChecks)
             let itExists = document.querySelector(elementPath)
             //if( numChecks < maxWait && (!itExists || itExists.length === 0)) {
             if( !itExists || itExists.length === 0 ) {
@@ -54,11 +56,6 @@
         if (!nm){
             return ''
         }
-        /*
-        to remove accented characters... from StackOverFlow
-        const str = "Crème Brulée"
-        str.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        */
 
         return nm.replace(/<[^>]*?>/ig,'\n')
             .replace(re_replace,'')
@@ -69,18 +66,15 @@
             .split('\n')[0]
     }
     let lista=[];
-    let oldlista=[];
-    //por alguna razon, imprime 6 veces cada persona lol
     function checkParticipants(){
-        lista=getListOfParticipants();
-        if(lista===oldlista){
-            //do nothing
-        }else{
-            for(let persona of lista){
-                console.log(persona);
-                //alert(persona+' has joined the game!');
+        let listaNueva=getListOfParticipants();
+        for(let p of listaNueva){
+            if(!lista.includes(p)){
+                lista.push(p);
+                console.log(p);
             }
         }
+
     }
     function getListOfParticipants(){
         let listaLocal=[];
@@ -97,16 +91,14 @@
                 continue
             }
             let trimmed=participant.outerHTML.replace(/(class|style|jsaction|jsname|jscontroller|jsshadow|jsmodel)="[^"]*"/gm,'').replace(/<path.*?<\/path>/g,'_path_').replace(/<span.*?<svg.*?<\/svg><\/span>/g,'_svg_').replace(/<img[^>]*?>/g,'_img_').replace(/\s{2,}/g,' ').replace(/\s*>/g,'>')
-             
-            // if there's no matching entry, add it with arrival time
+            
             listaLocal.push(pName);
-            //console.log(pName);
-            //alert(pName+' has joined the game!');
+            return listaLocal;
         }
-        return listaLocal;
     }
     waitForElement("[data-allocation-index]",function(){
         alert("MAE abrio su sesion");
+        horaInicio=Date.now();
         var observer = new MutationObserver(function( mutations ) {
             //esto es constante
             checkParticipants();
@@ -116,7 +108,6 @@
         waitForElement('[data-participant-id]',function(){
             alert("NuevoParticipante");
             console.log('Nuevo participante');
-            //checkParticipants();
         })
     })
     
@@ -124,6 +115,8 @@
         for(nombre of lista){
             alert(nombre);
         }
-        alert("MAE cerro su sesion");
+        horaFinal=Date.now();
+        totalTime=(horaFinal-horaInicio)/60000;
+        alert("MAE cerro su sesion, "+totalTime+" minutos.");
     })
 })()
