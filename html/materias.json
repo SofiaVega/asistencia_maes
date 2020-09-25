@@ -1,0 +1,1176 @@
+{
+    "materias": [
+        {
+            "nombre": "Actuadores",
+            "clave": "MR2003"
+        },
+        {
+            "nombre": "Admin de Proyectos de TI y Electricidad",
+            "clave": "32"
+        },
+        {
+            "nombre": "Administración de costos y precios",
+            "clave": "31"
+        },
+        {
+            "nombre": "Administración de procesos de negocios",
+            "clave": "TI2002"
+        },
+        {
+            "nombre": "Administración e innovación en modelos de negocios",
+            "clave": "AD1005"
+        },
+        {
+            "nombre": "Aleman",
+            "clave": "147"
+        },
+        {
+            "nombre": "Álgebra lineal",
+            "clave": "MA1019"
+        },
+        {
+            "nombre": "Análisis  de alimentos",
+            "clave": "TA2000"
+        },
+        {
+            "nombre": "Análisis de biología computacional",
+            "clave": "BT1013"
+        },
+        {
+            "nombre": "Análisis de fenómenos naturales y sociales con probabilidad y estadística",
+            "clave": "CV1013"
+        },
+        {
+            "nombre": "Análisis de la estructura y transformación de la materia",
+            "clave": "Q1029"
+        },
+        {
+            "nombre": "Análisis de la estructura, propiedades y transformación de la materia",
+            "clave": "Q1019"
+        },
+        {
+            "nombre": "Análisis de la información financiera",
+            "clave": "CF2015"
+        },
+        {
+            "nombre": "Análisis de la transformación de la materia en procesos químicos ",
+            "clave": "Q1022"
+        },
+        {
+            "nombre": "Análisis de procesos",
+            "clave": "IQ3008"
+        },
+        {
+            "nombre": "Análisis de señales y sistemas",
+            "clave": "TE2035"
+        },
+        {
+            "nombre": "Análisis de sistemas eléctricos en ciencias",
+            "clave": "F1019B"
+        },
+        {
+            "nombre": "Análisis de sistemas eléctricos en ingeniería de procesos ",
+            "clave": "F1011B"
+        },
+        {
+            "nombre": "Análisis de sistemas eléctricos en sistemas ingenieriles ",
+            "clave": "F1016B"
+        },
+        {
+            "nombre": "Análisis de sistemas electromagnéticos en ciencias",
+            "clave": "F1020B"
+        },
+        {
+            "nombre": "Análisis de sistemas electromagnéticos en ingeniería de procesos ",
+            "clave": "F1012B"
+        },
+        {
+            "nombre": "Análisis de sistemas electromagnéticos en sistemas ingenieriles ",
+            "clave": "F1017B"
+        },
+        {
+            "nombre": "Análisis Espectroscópico",
+            "clave": "134"
+        },
+        {
+            "nombre": "Análisis estadístico",
+            "clave": "MA1031"
+        },
+        {
+            "nombre": "Análisis Estructural",
+            "clave": "36"
+        },
+        {
+            "nombre": "Análisis financiero",
+            "clave": "CF1015"
+        },
+        {
+            "nombre": "Análisis para la toma de decisiones",
+            "clave": "CD1004"
+        },
+        {
+            "nombre": "Análisis químico del ambiente y de los materiales de construcción",
+            "clave": "CV1009"
+        },
+        {
+            "nombre": "Análisis y diseño de algoritmos",
+            "clave": "TC2017"
+        },
+        {
+            "nombre": "Análisis y expresión verbal",
+            "clave": "H1040"
+        },
+        {
+            "nombre": "Análisis y modelación de sistemas de software",
+            "clave": "TC2004"
+        },
+        {
+            "nombre": "Análisis y simulación de mecanismos",
+            "clave": "M2007"
+        },
+        {
+            "nombre": "Aplicación de la termodinámica en ciencias",
+            "clave": "F1018B"
+        },
+        {
+            "nombre": "Aplicación de la termodinámica en ingeniería de procesos",
+            "clave": "F1010B"
+        },
+        {
+            "nombre": "Aplicación de la termodinámica en sistemas ingenieriles",
+            "clave": "F1015B"
+        },
+        {
+            "nombre": "Aplicación de las leyes de conservación en ciencias",
+            "clave": "F1009B"
+        },
+        {
+            "nombre": "Aplicación de las leyes de conservación en ingeniería de procesos",
+            "clave": "F1003B"
+        },
+        {
+            "nombre": "Aplicación de las leyes de conservación en sistemas ingenieriles",
+            "clave": "F1007B"
+        },
+        {
+            "nombre": "Aplicación de métodos numéricos al ambiente construido",
+            "clave": "CV1012"
+        },
+        {
+            "nombre": "Aporte y consumo de oxígeno",
+            "clave": "SD1003"
+        },
+        {
+            "nombre": "Aprendizaje Organizacional",
+            "clave": "148"
+        },
+        {
+            "nombre": "Automatismos lógicos",
+            "clave": "MR2000"
+        },
+        {
+            "nombre": "Automatización de procesos",
+            "clave": "190"
+        },
+        {
+            "nombre": "Automatización de procesos",
+            "clave": "191"
+        },
+        {
+            "nombre": "Balance de energía",
+            "clave": "IQ2000"
+        },
+        {
+            "nombre": "Balance de materia",
+            "clave": "IQ1001"
+        },
+        {
+            "nombre": "Bases de datos",
+            "clave": "178"
+        },
+        {
+            "nombre": "Bases de la salud",
+            "clave": "SD1001B"
+        },
+        {
+            "nombre": "Bases Químicas",
+            "clave": "4"
+        },
+        {
+            "nombre": "Bases químicas del metabolismo y la fisiología",
+            "clave": "MD1029"
+        },
+        {
+            "nombre": "Bienes, derechos reales y sucesiones",
+            "clave": "150"
+        },
+        {
+            "nombre": "Biocontroladores",
+            "clave": "194"
+        },
+        {
+            "nombre": "Bioestadística",
+            "clave": "182"
+        },
+        {
+            "nombre": "Biología celular",
+            "clave": "MD1031"
+        },
+        {
+            "nombre": "Biología del desarrollo",
+            "clave": "167"
+        },
+        {
+            "nombre": "Biología molecular",
+            "clave": "BT1003"
+        },
+        {
+            "nombre": "Biomimética y sustentabilidad OPTATIVA",
+            "clave": "IB1006"
+        },
+        {
+            "nombre": "Bioquímica",
+            "clave": "Q2000"
+        },
+        {
+            "nombre": "Bioquímica Metabólica",
+            "clave": "136"
+        },
+        {
+            "nombre": "Cambio climático y uso de energía",
+            "clave": "DS1005"
+        },
+        {
+            "nombre": "Ciclo de vida: concepción y embarazo",
+            "clave": "SD1004B"
+        },
+        {
+            "nombre": "Ciclo de vida: edad adulta",
+            "clave": "SD1006B"
+        },
+        {
+            "nombre": "Ciclo de vida: infancia y adolescencia",
+            "clave": "SD1005B"
+        },
+        {
+            "nombre": "Ciencias Naturales y Desarrollo Sustentable",
+            "clave": "133"
+        },
+        {
+            "nombre": "Circuitos eléctricos",
+            "clave": "TE1012"
+        },
+        {
+            "nombre": "Circuitos eléctricos I",
+            "clave": "TE1002"
+        },
+        {
+            "nombre": "Circuitos Eléctricos II",
+            "clave": "TE2032"
+        },
+        {
+            "nombre": "Comunicación que inspira",
+            "clave": "AD1016"
+        },
+        {
+            "nombre": "Contabilidad administrativa",
+            "clave": "CF1011"
+        },
+        {
+            "nombre": "Contabilidad y administración de costos",
+            "clave": "CF1010"
+        },
+        {
+            "nombre": "Control de la energía",
+            "clave": "SD1004"
+        },
+        {
+            "nombre": "Control Estadístico de la Calidad",
+            "clave": "177"
+        },
+        {
+            "nombre": "Control estadístico de la calidad",
+            "clave": "IN2004"
+        },
+        {
+            "nombre": "Costos de Construcción",
+            "clave": "43"
+        },
+        {
+            "nombre": "Crecimiento y desarrollo",
+            "clave": "SD1009"
+        },
+        {
+            "nombre": "Decisiones financieras",
+            "clave": "FZ1011"
+        },
+        {
+            "nombre": "Delitos en especial",
+            "clave": "151"
+        },
+        {
+            "nombre": "Derecho administrativo y políticas públicas",
+            "clave": "152"
+        },
+        {
+            "nombre": "Derecho administrativo y políticas públicas I",
+            "clave": "154"
+        },
+        {
+            "nombre": "Derecho de las obligaciones I",
+            "clave": "153"
+        },
+        {
+            "nombre": "Derecho de las obligaciones II",
+            "clave": "156"
+        },
+        {
+            "nombre": "Derecho empresarial y propiedad intelectual",
+            "clave": "D1022"
+        },
+        {
+            "nombre": "Derecho financiero público",
+            "clave": "157"
+        },
+        {
+            "nombre": "Derecho fiscal",
+            "clave": "158"
+        },
+        {
+            "nombre": "Derecho procesal penal",
+            "clave": "155"
+        },
+        {
+            "nombre": "Desarrollo de aplicaciones web",
+            "clave": "TC2026"
+        },
+        {
+            "nombre": "Desarrollo emocional y conductual",
+            "clave": "SD1010"
+        },
+        {
+            "nombre": "Desarrollo humano I",
+            "clave": "174"
+        },
+        {
+            "nombre": "Desarrollo humano II",
+            "clave": "175"
+        },
+        {
+            "nombre": "Descubrimientos del mercado para el desarrollo de estrategias",
+            "clave": "MT1001B"
+        },
+        {
+            "nombre": "Dibujo",
+            "clave": "185"
+        },
+        {
+            "nombre": "Dibujo arquitectónico",
+            "clave": "AR1015"
+        },
+        {
+            "nombre": "Dibujo artístico",
+            "clave": "186"
+        },
+        {
+            "nombre": "Dibujo computarizado",
+            "clave": "AR1017"
+        },
+        {
+            "nombre": "Dibujo computarizado para el diseño",
+            "clave": "184"
+        },
+        {
+            "nombre": "Dinámica",
+            "clave": "M1005"
+        },
+        {
+            "nombre": "Dirección financiera",
+            "clave": "CF1001B"
+        },
+        {
+            "nombre": "Diseño de Compiladores",
+            "clave": "187"
+        },
+        {
+            "nombre": "Diseño de Compiladores",
+            "clave": "188"
+        },
+        {
+            "nombre": "Diseño de elementos de concreto reforzado",
+            "clave": "47"
+        },
+        {
+            "nombre": "Diseño de estructuras de acero",
+            "clave": "162"
+        },
+        {
+            "nombre": "Diseño de Estructuras de Acero",
+            "clave": "180"
+        },
+        {
+            "nombre": "Diseño de estructuras de concreto",
+            "clave": "CV3003"
+        },
+        {
+            "nombre": "Diseño del trabajo",
+            "clave": "IN2018"
+        },
+        {
+            "nombre": "Diseño electrónico II",
+            "clave": "128"
+        },
+        {
+            "nombre": "Diseño y análisis de experimentos",
+            "clave": "IN2023"
+        },
+        {
+            "nombre": "Diseño y simulación de máquinas",
+            "clave": "M2030"
+        },
+        {
+            "nombre": "Econometría I",
+            "clave": "EC2013"
+        },
+        {
+            "nombre": "Economía de la empresa",
+            "clave": "EC1008"
+        },
+        {
+            "nombre": "Economía empresarial",
+            "clave": "EC1017"
+        },
+        {
+            "nombre": "Economía para la creación de negocios",
+            "clave": "EC1010"
+        },
+        {
+            "nombre": "Ecuaciones diferenciales",
+            "clave": "MA2010"
+        },
+        {
+            "nombre": "Electricidad y magnetismo",
+            "clave": "F1005"
+        },
+        {
+            "nombre": "Electrónica",
+            "clave": "TE1003"
+        },
+        {
+            "nombre": "Electrónica Aplicada",
+            "clave": "112"
+        },
+        {
+            "nombre": "Embriología",
+            "clave": "SD1007"
+        },
+        {
+            "nombre": "Emprendimiento y tecnología para la transformación de México",
+            "clave": "EC1002B"
+        },
+        {
+            "nombre": "Entorno macroeconómico",
+            "clave": "EC1009"
+        },
+        {
+            "nombre": "Enzimología y biocatálisis",
+            "clave": "BT2005"
+        },
+        {
+            "nombre": "Estadística Administrativa",
+            "clave": "51"
+        },
+        {
+            "nombre": "Estadística I",
+            "clave": "MA1020"
+        },
+        {
+            "nombre": "Estadística II",
+            "clave": "MA2011"
+        },
+        {
+            "nombre": "Estática",
+            "clave": "M1003"
+        },
+        {
+            "nombre": "Estructura de datos",
+            "clave": "TC1018"
+        },
+        {
+            "nombre": "Estructuras simbólicas en la imagen, la literatura y la música",
+            "clave": "H1001B"
+        },
+        {
+            "nombre": "Evaluación de proyectos y fuentes de financiamiento",
+            "clave": "FZ2016"
+        },
+        {
+            "nombre": "Evaluación del impacto ambiental de proyectos territoriales",
+            "clave": "CV1011"
+        },
+        {
+            "nombre": "Evaluación y administración de proyectos",
+            "clave": "IN2025"
+        },
+        {
+            "nombre": "Experimentación física y pensamiento estadístico",
+            "clave": "F1008"
+        },
+        {
+            "nombre": "Experimentación química y pensamiento estadístico fundamental ",
+            "clave": "Q1021"
+        },
+        {
+            "nombre": "Experimentación química y pensamiento estadístico intermedio",
+            "clave": "Q1023"
+        },
+        {
+            "nombre": "Exploración en el hábitat: de la escala del elemento al territorio",
+            "clave": "AR1002B"
+        },
+        {
+            "nombre": "Expresión verbal en el ámbito profesional",
+            "clave": "H2001"
+        },
+        {
+            "nombre": "Farmacología y toxicología general",
+            "clave": "171"
+        },
+        {
+            "nombre": "Fenómenos de transporte",
+            "clave": "100"
+        },
+        {
+            "nombre": "Finanzas personales y empresariales",
+            "clave": "FZ1006"
+        },
+        {
+            "nombre": "Física I",
+            "clave": "F1002"
+        },
+        {
+            "nombre": "Física II",
+            "clave": "F1003"
+        },
+        {
+            "nombre": "Física Remedial",
+            "clave": "144"
+        },
+        {
+            "nombre": "Francés I - VI",
+            "clave": "HI11"
+        },
+        {
+            "nombre": "Fundamentación de la estructura y transformación de la materia",
+            "clave": "Q1028"
+        },
+        {
+            "nombre": "Fundamentación de sistemas biológicos OPTATIVA",
+            "clave": "IB1005"
+        },
+        {
+            "nombre": "Fundamentos de diseño interactivo",
+            "clave": "TC1015"
+        },
+        {
+            "nombre": "Fundamentos de geología aplicada al ambiente construido",
+            "clave": "CV1010"
+        },
+        {
+            "nombre": "Fundamentos de programación",
+            "clave": "TC1014"
+        },
+        {
+            "nombre": "Genética",
+            "clave": "BT1002"
+        },
+        {
+            "nombre": "Genética humana",
+            "clave": "SD1005"
+        },
+        {
+            "nombre": "Genética para ciencias de la salud",
+            "clave": "164"
+        },
+        {
+            "nombre": "Geomatica",
+            "clave": "143"
+        },
+        {
+            "nombre": "Geometría aplicada",
+            "clave": "AR1016"
+        },
+        {
+            "nombre": "Geometría descriptiva",
+            "clave": "AR1014"
+        },
+        {
+            "nombre": "Herramientas tecnológicas para las ciencias sociales",
+            "clave": "TC1002B"
+        },
+        {
+            "nombre": "Hidráulica general",
+            "clave": "CV2012"
+        },
+        {
+            "nombre": "Histología",
+            "clave": "163"
+        },
+        {
+            "nombre": "Histologia",
+            "clave": "165"
+        },
+        {
+            "nombre": "Ideación y prototipado",
+            "clave": "EM1001B"
+        },
+        {
+            "nombre": "Imaginarios culturales de México",
+            "clave": "EH1008"
+        },
+        {
+            "nombre": "Información financiera para la toma de decisiones",
+            "clave": "CF1008"
+        },
+        {
+            "nombre": "Informática industrial",
+            "clave": "MR1001"
+        },
+        {
+            "nombre": "Ingeniería de bioprocesos I",
+            "clave": "BT2011"
+        },
+        {
+            "nombre": "Ingeniería de control",
+            "clave": "MR2004"
+        },
+        {
+            "nombre": "Ingeniería de reactores",
+            "clave": "IQ3003"
+        },
+        {
+            "nombre": "Ingeniería genética",
+            "clave": "BT2001"
+        },
+        {
+            "nombre": "Ingeniería Termodinámica",
+            "clave": "M2016"
+        },
+        {
+            "nombre": "Inglés remedial I - V",
+            "clave": "H10001"
+        },
+        {
+            "nombre": "Innovación de modelos de negocios",
+            "clave": "EM1009"
+        },
+        {
+            "nombre": "Introducción a la computación",
+            "clave": "TC1001"
+        },
+        {
+            "nombre": "Introducción a la física",
+            "clave": "F1001"
+        },
+        {
+            "nombre": "Introducción a las matemáticas",
+            "clave": "160"
+        },
+        {
+            "nombre": "Introducción a las matemáticasIntroducción a las matemá",
+            "clave": "MA1001"
+        },
+        {
+            "nombre": "Introducción al derecho",
+            "clave": "D1001B"
+        },
+        {
+            "nombre": "Japonés",
+            "clave": "189"
+        },
+        {
+            "nombre": "Legalidad y negocios responsables",
+            "clave": "D1029"
+        },
+        {
+            "nombre": "Macroeconomía",
+            "clave": "EC1013"
+        },
+        {
+            "nombre": "Macroeconomía intermedia",
+            "clave": "EC2023"
+        },
+        {
+            "nombre": "Marco legal de los negocios",
+            "clave": "D1021"
+        },
+        {
+            "nombre": "Matemáticas avanzadas",
+            "clave": "MA3002"
+        },
+        {
+            "nombre": "Matemáticas Computacionales",
+            "clave": "TC2020"
+        },
+        {
+            "nombre": "Matemáticas discretas",
+            "clave": "TC1003"
+        },
+        {
+            "nombre": "Matemáticas financieras",
+            "clave": "FZ1005"
+        },
+        {
+            "nombre": "Matemáticas I",
+            "clave": "MA1015"
+        },
+        {
+            "nombre": "Matemáticas I para Administración y Negocios",
+            "clave": "123"
+        },
+        {
+            "nombre": "Matemáticas II",
+            "clave": "MA1017"
+        },
+        {
+            "nombre": "Matemáticas III",
+            "clave": "22"
+        },
+        {
+            "nombre": "Matemáticas IV",
+            "clave": "25"
+        },
+        {
+            "nombre": "Matemáticas para economía I",
+            "clave": "176"
+        },
+        {
+            "nombre": "Matemáticas para economía II",
+            "clave": "MA3001"
+        },
+        {
+            "nombre": "Matemáticas para el diseño",
+            "clave": "MA1009"
+        },
+        {
+            "nombre": "Matemáticas y ciencia de datos para la toma de decisiones",
+            "clave": "MA1042"
+        },
+        {
+            "nombre": "Materiales y Procedimientos de Construcción I",
+            "clave": "29"
+        },
+        {
+            "nombre": "Mecánica de estructuras I",
+            "clave": "CV2024"
+        },
+        {
+            "nombre": "Mecánica de estructuras II",
+            "clave": "CV2025"
+        },
+        {
+            "nombre": "Mecánica de materiales",
+            "clave": "M2023"
+        },
+        {
+            "nombre": "Mecánica de Sólidos I",
+            "clave": "69"
+        },
+        {
+            "nombre": "Mecánica de Sólidos II",
+            "clave": "70"
+        },
+        {
+            "nombre": "Mecánica de Suelos",
+            "clave": "24"
+        },
+        {
+            "nombre": "Mecanismos celulares y moleculares",
+            "clave": "SD1003B"
+        },
+        {
+            "nombre": "Metabolismo y energía",
+            "clave": "SD1002B"
+        },
+        {
+            "nombre": "Métodos  estadísticos para la toma de desicio",
+            "clave": "161"
+        },
+        {
+            "nombre": "Métodos avanzados para resistencia de materiales",
+            "clave": "M2026"
+        },
+        {
+            "nombre": "Métodos cuantitativos I",
+            "clave": "MA1023"
+        },
+        {
+            "nombre": "Métodos Cuantitativos y de Optimización",
+            "clave": "139"
+        },
+        {
+            "nombre": "Métodos numéricos en ingeniería",
+            "clave": "M2025"
+        },
+        {
+            "nombre": "Microbiología",
+            "clave": "BT2003"
+        },
+        {
+            "nombre": "Microcontroladores",
+            "clave": "105"
+        },
+        {
+            "nombre": "Microeconomía",
+            "clave": "EC1014"
+        },
+        {
+            "nombre": "Microeconomía intermedia",
+            "clave": "EC2009"
+        },
+        {
+            "nombre": "Modelación computacional aplicando leyes de conservación",
+            "clave": "F1005B"
+        },
+        {
+            "nombre": "Modelación computacional de sistemas eléctricos",
+            "clave": "F1013B"
+        },
+        {
+            "nombre": "Modelación computacional de sistemas electromagnéticos ",
+            "clave": "F1014B"
+        },
+        {
+            "nombre": "Modelación computacional del movimiento",
+            "clave": "F1004B"
+        },
+        {
+            "nombre": "Modelación de la física en el ambiente construido: Dinámica",
+            "clave": "AR1008B"
+        },
+        {
+            "nombre": "Modelación de la física en el ambiente construido: Estática",
+            "clave": "AR1007B"
+        },
+        {
+            "nombre": "Modelación de la ingeniería con matemática computacional",
+            "clave": "TC1003B"
+        },
+        {
+            "nombre": "Modelación de la ingeniería y ciencias",
+            "clave": "F1001B"
+        },
+        {
+            "nombre": "Modelación del movimiento en bioingeniería y procesos químicos",
+            "clave": "F1002B"
+        },
+        {
+            "nombre": "Modelación del movimiento en ciencias",
+            "clave": "F1008B"
+        },
+        {
+            "nombre": "Modelación del movimiento en ingeniería",
+            "clave": "F1006B"
+        },
+        {
+            "nombre": "Modelación digital",
+            "clave": "183"
+        },
+        {
+            "nombre": "Modelación matemática fundamental",
+            "clave": "MA1028"
+        },
+        {
+            "nombre": "Modelación matemática intermedia ",
+            "clave": "MA1029"
+        },
+        {
+            "nombre": "Modelación matricial",
+            "clave": "MA1030"
+        },
+        {
+            "nombre": "Modelación y representación gráfica de tu campus con topografía",
+            "clave": "AR1005B"
+        },
+        {
+            "nombre": "Modelación y representación gráfica de tu entorno con geomática",
+            "clave": "AR1006B"
+        },
+        {
+            "nombre": "Modelación y representación gráfica de un edificio",
+            "clave": "AR1004B"
+        },
+        {
+            "nombre": "Modelos  de optimización",
+            "clave": "146"
+        },
+        {
+            "nombre": "Morfofisiología básica",
+            "clave": "166"
+        },
+        {
+            "nombre": "Morfofisiología básica",
+            "clave": "MD1036"
+        },
+        {
+            "nombre": "Morfofisiología renal",
+            "clave": "SD1011"
+        },
+        {
+            "nombre": "Narrativa audiovisual",
+            "clave": "AV1001B"
+        },
+        {
+            "nombre": "Operación de Transferencia de Calor",
+            "clave": "23"
+        },
+        {
+            "nombre": "Operaciones de transferencia de momentum",
+            "clave": "IQ2005"
+        },
+        {
+            "nombre": "Organización computacional",
+            "clave": "TC1016"
+        },
+        {
+            "nombre": "Pensamiento computacional orientado a objetos",
+            "clave": "TC1033"
+        },
+        {
+            "nombre": "Pensamiento computacional para ingeniería",
+            "clave": "TC1028"
+        },
+        {
+            "nombre": "Pensamiento estadístico",
+            "clave": "CD1005"
+        },
+        {
+            "nombre": "Pensamiento matemático I",
+            "clave": "MA1022"
+        },
+        {
+            "nombre": "Pensamiento matemático II",
+            "clave": "MA1024"
+        },
+        {
+            "nombre": "Prespectiva internacional",
+            "clave": "159"
+        },
+        {
+            "nombre": "Principios de programación para las ciencias sociales",
+            "clave": "TC1001B"
+        },
+        {
+            "nombre": "Probabilidad y estadística",
+            "clave": "MA1006"
+        },
+        {
+            "nombre": "Procesos de gestión de talento",
+            "clave": "RH1004"
+        },
+        {
+            "nombre": "Procesos de separación",
+            "clave": "192"
+        },
+        {
+            "nombre": "Procesos ecológicos para el desarrollo humano OPTATIVA",
+            "clave": "DS1009"
+        },
+        {
+            "nombre": "Procesos vitales",
+            "clave": "170"
+        },
+        {
+            "nombre": "Programación de estructuras de datos y algoritmos fundamentales",
+            "clave": "TC1031"
+        },
+        {
+            "nombre": "Programación orientada a objetos",
+            "clave": "TC1030"
+        },
+        {
+            "nombre": "Programación para negocios",
+            "clave": "TC1027"
+        },
+        {
+            "nombre": "Pronósticos para la toma de decisiones",
+            "clave": "CD2006"
+        },
+        {
+            "nombre": "Proyecto Integrador de Diseño Estructural",
+            "clave": "181"
+        },
+        {
+            "nombre": "Psicología general I",
+            "clave": "172"
+        },
+        {
+            "nombre": "Psicología general II",
+            "clave": "173"
+        },
+        {
+            "nombre": "Química",
+            "clave": "Q1001"
+        },
+        {
+            "nombre": "Química analítica",
+            "clave": "Q1010"
+        },
+        {
+            "nombre": "Quimica Analitica InstrumentalQuímica analítica instrum",
+            "clave": "Q2018"
+        },
+        {
+            "nombre": "Química de alimentos",
+            "clave": "Q2001"
+        },
+        {
+            "nombre": "Química de materiales y nanomateriales",
+            "clave": "Q1018"
+        },
+        {
+            "nombre": "Química experimental",
+            "clave": "Q1014"
+        },
+        {
+            "nombre": "Química industrial",
+            "clave": "Q2012"
+        },
+        {
+            "nombre": "Química Inorgánica",
+            "clave": "28"
+        },
+        {
+            "nombre": "Química orgánica estructural",
+            "clave": "Q1007"
+        },
+        {
+            "nombre": "Química orgánica mecanística",
+            "clave": "Q1011"
+        },
+        {
+            "nombre": "Razonamiento basado en matemáticas",
+            "clave": "CV1007"
+        },
+        {
+            "nombre": "Razonamiento matemático",
+            "clave": "MA1027"
+        },
+        {
+            "nombre": "Representación formal del espacio",
+            "clave": "AR1001B"
+        },
+        {
+            "nombre": "Reproducción humana",
+            "clave": "SD1008"
+        },
+        {
+            "nombre": "Resolución de problemas con lógica computacional",
+            "clave": "CV1008"
+        },
+        {
+            "nombre": "Semiótica y narratologías contemporáneas",
+            "clave": "EH1009"
+        },
+        {
+            "nombre": "Simulación de eventos discretos",
+            "clave": "145"
+        },
+        {
+            "nombre": "Simulación de eventos discretos",
+            "clave": "IN2027"
+        },
+        {
+            "nombre": "Sistema digestivo",
+            "clave": "SD1002"
+        },
+        {
+            "nombre": "Sistema endócrino",
+            "clave": "SD1006"
+        },
+        {
+            "nombre": "Sistema musculoesquelético",
+            "clave": "SD1001"
+        },
+        {
+            "nombre": "Sistema nervioso",
+            "clave": "SD1012"
+        },
+        {
+            "nombre": "Sistemas biocontroladores",
+            "clave": "168"
+        },
+        {
+            "nombre": "Sistemas digitales",
+            "clave": "TE1010"
+        },
+        {
+            "nombre": "Sistemas digitales avanzados",
+            "clave": "179"
+        },
+        {
+            "nombre": "Sistemas estructurales",
+            "clave": "CV2026"
+        },
+        {
+            "nombre": "Sistemas locomotor y digestivo",
+            "clave": "169"
+        },
+        {
+            "nombre": "Sistemas operativos",
+            "clave": "193"
+        },
+        {
+            "nombre": "Solución de problemas con programación",
+            "clave": "TC1017"
+        },
+        {
+            "nombre": "Taller Herramientas de estudio",
+            "clave": "92"
+        },
+        {
+            "nombre": "Taller Orientacion Vocacional",
+            "clave": "91"
+        },
+        {
+            "nombre": "Tecnologías de información para los negocios",
+            "clave": "TI1012"
+        },
+        {
+            "nombre": "Teoría de juegos y decisiones estratégicas",
+            "clave": "EC2024"
+        },
+        {
+            "nombre": "Teoría del Productor y política de preciosTeoría del pr",
+            "clave": "EC3025"
+        },
+        {
+            "nombre": "Teoría general del derecho penal",
+            "clave": "149"
+        },
+        {
+            "nombre": "Teoría y política monetaria",
+            "clave": "EC2016"
+        },
+        {
+            "nombre": "Termodinámica",
+            "clave": "IQ2001"
+        },
+        {
+            "nombre": "Termodinámica de Procesos",
+            "clave": "82"
+        },
+        {
+            "nombre": "Termodinámica del equilibrio",
+            "clave": "IQ2003"
+        },
+        {
+            "nombre": "Termodinámica Molecular",
+            "clave": "84"
+        },
+        {
+            "nombre": "Visualización digital",
+            "clave": "AR2004"
+        }
+    ]
+}
