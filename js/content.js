@@ -3,20 +3,15 @@
     let horaFinal=0;
     let totalTime=0;
     function waitForElement(elementPath, callBack){
-        //console.log("Waiting for: " + elementPath)
-        
         let waitfor=elementPath==='[data-call-ended = "true"]'?10000:1000
-        //let maxWait=waitfor==1000?10:null
         
         window.setTimeout(function(){
             let itExists = document.querySelector(elementPath)
-            //if( numChecks < maxWait && (!itExists || itExists.length === 0)) {
+            
             if( !itExists || itExists.length === 0 ) {
-                //numChecks++
                 waitForElement(elementPath, callBack);
             }
             else{
-                //numChecks=null
                 callBack(elementPath, itExists);
             }
         },waitfor)
@@ -42,9 +37,7 @@
 
     let uiStrings = getMeetUIStrings()
     // create regexes
-    //let re_replace = new RegExp('(\\b)*'+uiStrings.you+'\n|(\\b)*'+uiStrings.joined+'(\\b)*|(\\b)*'+uiStrings.more+'(\\b)*|'+uiStrings.hide, "gi");
     let re_replace = new RegExp('^'+uiStrings.you+'$|\\b'+uiStrings.joined+'(\\b)*|(\\b)*'+uiStrings.more+'(\\b)*|(\\b)*'+uiStrings.keep_off+'(\\b)*|'+uiStrings.hide, "gi");
-    //console.log(re_replace)
     let duplicatedLines = /^(.*)(\r?\n\1)+$/gm
 
     function cleanseInnerHTML(tih){
@@ -115,8 +108,8 @@
         for(nombre of lista){
             alert(nombre);
         }
-        horaFinal=Date.now();
-        totalTime=(horaFinal-horaInicio)/60000;
-        alert("MAE cerro su sesion, "+totalTime+" minutos.");
+        horaFinal = Date.now();
+        totalTime = (horaFinal - horaInicio)/60000;
+        alert("MAE cerro su sesion, " + totalTime + " minutos.");
     })
 })()
