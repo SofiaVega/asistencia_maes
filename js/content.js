@@ -88,10 +88,12 @@ let alumnosJSON=[];
         for(comentario of comentarios){
             let palabras=comentario.innerText.split(" dice en el chat: ")
             //console.log(comentario.innerText);
-            if(!alumnosJSON.includes({matricula: palabras[0], nombre: palabras[1]})){
-                alumnosJSON.push({matricula: palabras[0], nombre: palabras[1]});
-                console.log(palabras[0]);
-                console.log(palabras[1]);
+            if(palabras[1].includes('a0')||palabras[1].includes('A0')){
+                if(!alumnosJSON.includes({matricula: palabras[0], nombre: palabras[1]})){
+                    alumnosJSON.push({matricula: palabras[0], nombre: palabras[1]});
+                    console.log(palabras[0]);
+                    console.log(palabras[1]);
+                }
             }
         }
     }
