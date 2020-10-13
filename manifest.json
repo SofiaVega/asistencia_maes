@@ -19,7 +19,7 @@
             ],
             "run_at": "document_start",
             "js": [
-                "js/content.js", "jquery-3.5.1.js", "html/popup.js"
+                "jquery-3.5.1.js", "js/content.js", "html/popup.js"
             ],
             "all_frames": false
         }

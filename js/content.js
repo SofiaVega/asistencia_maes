@@ -1,7 +1,12 @@
-;(function() {	
+var otralista=['uno','dos','tres','cuatro'];
+var lista=['primer alumno'];
+let alumnosJSON=[];
+
+;(function() {
     let horaInicio=0;
     let horaFinal=0;
     let totalTime=0;
+    
     function waitForElement(elementPath, callBack){
         let waitfor=elementPath==='[data-call-ended = "true"]'?10000:1000
         
@@ -15,6 +20,12 @@
                 callBack(elementPath, itExists);
             }
         },waitfor)
+    }
+    function contains(selector, text) {
+        var elements = document.querySelectorAll(selector);
+        return Array.prototype.filter.call(elements, function(element){
+          return RegExp(text).test(element.textContent);
+        });
     }
 
     const meetUIStrings = {
@@ -33,7 +44,9 @@
         meetUIStrings['es'].keep_off='keep_off' //placeholder to exclude spurious keep_off entries
         return meetUIStrings['es']
     }
-    
+    $(() => {
+        updateDropdown(listaPopup);
+    })
 
     let uiStrings = getMeetUIStrings()
     // create regexes
@@ -58,7 +71,6 @@
             .trim()
             .split('\n')[0]
     }
-    let lista=[];
     function checkParticipants(){
         let listaNueva=getListOfParticipants();
         for(let p of listaNueva){
@@ -68,6 +80,20 @@
             }
         }
 
+        updateDropdown(lista);
+
+    }
+    function getMatriculas(){
+        let comentarios=contains('div','dice en el chat:');
+        for(comentario of comentarios){
+            let palabras=comentario.innerText.split(" dice en el chat: ")
+            //console.log(comentario.innerText);
+            if(!alumnosJSON.includes({matricula: palabras[0], nombre: palabras[1]})){
+                alumnosJSON.push({matricula: palabras[0], nombre: palabras[1]});
+                console.log(palabras[0]);
+                console.log(palabras[1]);
+            }
+        }
     }
     function getListOfParticipants(){
         let listaLocal=[];
@@ -89,12 +115,13 @@
             return listaLocal;
         }
     }
-    waitForElement("[data-allocation-index]",function(){
+    function callStarted(){
         alert("MAE abrio su sesion");
         horaInicio=Date.now();
         var observer = new MutationObserver(function( mutations ) {
             //esto es constante
             checkParticipants();
+            getMatriculas();
         });
         // watch for changes (adding new participants to the Meet)
         observer.observe(document.body, {childList:true, attributes:true, attributeFilter: ['data-self-name','data-participant-id','data-requested-participant-id'], subtree:true, characterData:false});
@@ -102,14 +129,16 @@
             alert("NuevoParticipante");
             console.log('Nuevo participante');
         })
-    })
-    
-    waitForElement('[data-call-ended="true"]',function(){
+    }
+    function callEnded(){
         for(nombre of lista){
             alert(nombre);
         }
         horaFinal = Date.now();
         totalTime = (horaFinal - horaInicio)/60000;
         alert("MAE cerro su sesion, " + totalTime + " minutos.");
-    })
+    }
+
+    waitForElement("[data-allocation-index]",callStarted);
+    waitForElement('[data-call-ended="true"]',callEnded);
 })()
