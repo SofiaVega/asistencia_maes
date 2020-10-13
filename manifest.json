@@ -1,9 +1,9 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 2,
-    "name": "Google Meet Controls",
-    "short_name": "Meet Controls",
-    "description": "Control your microphone manners for Meet",
+    "name": "Asistencia MAEs",
+    "short_name": "MAEs",
+    "description": "Registra asesorias en Google Meets",
     "version": "1.0",
     "author": "Sofi",
     "background": {

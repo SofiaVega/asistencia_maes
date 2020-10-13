@@ -87,15 +87,21 @@ let alumnosJSON=[];
         let comentarios=contains('div','dice en el chat:');
         for(comentario of comentarios){
             let palabras=comentario.innerText.split(" dice en el chat: ")
-            //console.log(comentario.innerText);
             if(palabras[1].includes('a0')||palabras[1].includes('A0')){
-                if(!alumnosJSON.includes({matricula: palabras[0], nombre: palabras[1]})){
-                    alumnosJSON.push({matricula: palabras[0], nombre: palabras[1]});
-                    console.log(palabras[0]);
-                    console.log(palabras[1]);
+                if(!findMatricula(palabras[1])){
+                    alumnosJSON.push({matricula: palabras[1], nombre: palabras[0]});
                 }
             }
         }
+    }
+    function findMatricula(matricula){
+        for(alumno of alumnosJSON){
+            console.log(alumno.matricula);
+            if(alumno.matricula==matricula){
+                return true;
+            }
+        }
+        return false;
     }
     function getListOfParticipants(){
         let listaLocal=[];
